@@ -4,7 +4,6 @@ import com.alesh.api.GpsNavigator;
 import com.alesh.api.Path;
 import com.alesh.implementation.DijkstraAlgorithm;
 
-import java.sql.Time;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +12,7 @@ import java.io.File;
 import java.io.FileInputStream;
 
 public class Main {
-
+    //
     public static void main(String[] args) {
 
         final GpsNavigator navigator = new StubGpsNavigator();
